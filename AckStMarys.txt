@@ -1,0 +1,16 @@
+step by step registration
+	1 peronal details: names, id no,hbc, location,email,
+				student/working. phone no, dp
+	2 student/working details: 
+			a.Student:level of education, school,   full 	course name, major, year(dropdown), expected year of graduation,
+		b. Working: Organization name, start date, position, previous working experiences(org name, start date, end date, position) 
+		
+ 	3 Upload details:CV 
+	4. Verify details display info
+ID number max = 8
+no numbers in names text boxes
+organization || student appear separately
+
+report: name, hbc, school, course, working experience
+
+cv pdf only.

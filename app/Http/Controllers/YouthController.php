@@ -252,8 +252,8 @@ class YouthController extends Controller
         ]);
          
         $user = auth()->user();
-        $youth = Youth::where('id', $user->id)->firstOrFail();
-
+        $youth = Youth::where('id', $user->id)->first();
+            dd($youth);
         $notificaton = sprintf(
             'Internship application by %s %s from %s to %s in %s',
             $youth->firstname,
@@ -267,7 +267,7 @@ class YouthController extends Controller
         return back()->with('success', 'Internship application sent');
 
 
-        
+
         //$start_date = $request->input('start_date');
         //$end_date = $request->input('end_date');
          //$id = auth()->user()->id;
